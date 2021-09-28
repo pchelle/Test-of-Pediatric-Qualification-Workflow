@@ -128,53 +128,53 @@ Table 1: Overall predictivity of the PBPK models. Open circles represent mean ra
 
 |Study ID           |Age [year(s)] |Body Weight [kg] |Observed AUC [µmol*min/l] |Predicted AUC [µmol*min/l] |Pred/Obs AUC Ratio |
 |:------------------|:-------------|:----------------|:-------------------------|:--------------------------|:------------------|
-|Davis 1987         |1.29167       |8.900            |2.143634                  |1.158587                   |0.54048            |
-|Davis 1987         |0.43333       |5.300            |1.410903                  |1.450964                   |1.02839            |
-|Guay 1991          |2.08333       |12.100           |0.280341                  |0.168538                   |0.60119            |
-|Guay 1991          |2.58333       |16.000           |0.119762                  |0.102728                   |0.85776            |
-|Guay 1991          |2.66667       |11.300           |0.230729                  |0.261336                   |1.13265            |
-|Guay 1991          |3.25000       |16.000           |0.213658                  |0.224529                   |1.05088            |
-|Guay 1991          |3.83333       |14.200           |0.171495                  |0.144406                   |0.84204            |
-|Guay 1991          |4.58333       |15.000           |0.174082                  |0.114986                   |0.66053            |
-|Guay 1991          |4.58333       |19.000           |0.348867                  |0.220920                   |0.63325            |
-|Guay 1991          |4.83333       |17.500           |0.180807                  |0.226177                   |1.25093            |
-|Guay 1991          |5.25000       |18.500           |0.112778                  |0.117011                   |1.03753            |
-|Guay 1991          |5.25000       |19.650           |0.220641                  |0.228543                   |1.03581            |
-|Guay 1991          |5.33333       |24.000           |0.350486                  |0.292623                   |0.83490            |
-|Guay 1991          |5.33333       |24.000           |0.195292                  |0.164338                   |0.84150            |
-|Guay 1991          |5.75000       |14.500           |0.392737                  |0.195428                   |0.49761            |
-|Guay 1991          |5.91667       |28.200           |0.329907                  |0.240516                   |0.72904            |
-|Guay 1991          |5.91667       |25.000           |0.147698                  |0.124090                   |0.84016            |
-|Guay 1991          |6.91667       |29.600           |0.159596                  |0.161050                   |1.00911            |
-|Guay 1991          |7.50000       |23.500           |0.090533                  |0.069585                   |0.76862            |
-|Guay 1991          |7.50000       |15.200           |0.190378                  |0.188672                   |0.99104            |
-|Guay 1991          |8.75000       |22.600           |0.146146                  |0.135709                   |0.92858            |
-|den Hollander 1992 |0.92000       |6.500            |50.657832                 |54.887875                  |1.08350            |
-|den Hollander 1992 |0.83000       |6.400            |33.611831                 |55.631386                  |1.65511            |
-|den Hollander 1992 |0.99000       |8.500            |47.536733                 |56.462856                  |1.18777            |
-|den Hollander 1992 |0.30000       |5.100            |44.415634                 |73.464172                  |1.65402            |
-|den Hollander 1992 |0.92000       |6.149            |38.173437                 |46.962379                  |1.23024            |
-|den Hollander 1992 |1.30000       |10.400           |58.340536                 |56.157288                  |0.96258            |
-|den Hollander 1992 |9.00000       |25.600           |27.129550                 |53.499294                  |1.97199            |
-|den Hollander 1992 |3.50000       |14.400           |44.655719                 |50.677994                  |1.13486            |
-|den Hollander 1992 |5.50000       |19.500           |49.697494                 |51.225372                  |1.03074            |
-|den Hollander 1992 |3.50000       |18.500           |54.499184                 |54.944973                  |1.00818            |
-|Meistelman 1987    |4.70000       |20.000           |14.122618                 |10.928322                  |0.77382            |
-|Meistelman 1987    |5.50000       |20.000           |8.138459                  |10.148963                  |1.24704            |
-|Meistelman 1987    |7.70000       |23.000           |5.785170                  |10.145299                  |1.75367            |
-|Meistelman 1987    |4.50000       |14.000           |10.438457                 |8.666262                   |0.83022            |
-|Meistelman 1987    |4.80000       |24.000           |12.977540                 |12.920726                  |0.99562            |
-|Meistelman 1987    |4.50000       |20.000           |10.003522                 |11.195629                  |1.11917            |
-|Meistelman 1987    |6.20000       |23.000           |10.912933                 |11.020336                  |1.00984            |
-|Meistelman 1987    |4.90000       |22.000           |17.784037                 |11.705059                  |0.65818            |
+|Davis 1987         |1.29          |8.90             |2.14                      |1.16                       |0.54               |
+|Davis 1987         |0.43          |5.30             |1.41                      |1.45                       |1.03               |
+|Guay 1991          |2.08          |12.10            |0.28                      |0.17                       |0.60               |
+|Guay 1991          |2.58          |16.00            |0.12                      |0.10                       |0.86               |
+|Guay 1991          |2.67          |11.30            |0.23                      |0.26                       |1.13               |
+|Guay 1991          |3.25          |16.00            |0.21                      |0.22                       |1.05               |
+|Guay 1991          |3.83          |14.20            |0.17                      |0.14                       |0.84               |
+|Guay 1991          |4.58          |15.00            |0.17                      |0.11                       |0.66               |
+|Guay 1991          |4.58          |19.00            |0.35                      |0.22                       |0.63               |
+|Guay 1991          |4.83          |17.50            |0.18                      |0.23                       |1.25               |
+|Guay 1991          |5.25          |18.50            |0.11                      |0.12                       |1.04               |
+|Guay 1991          |5.25          |19.65            |0.22                      |0.23                       |1.04               |
+|Guay 1991          |5.33          |24.00            |0.35                      |0.29                       |0.83               |
+|Guay 1991          |5.33          |24.00            |0.20                      |0.16                       |0.84               |
+|Guay 1991          |5.75          |14.50            |0.39                      |0.20                       |0.50               |
+|Guay 1991          |5.92          |28.20            |0.33                      |0.24                       |0.73               |
+|Guay 1991          |5.92          |25.00            |0.15                      |0.12                       |0.84               |
+|Guay 1991          |6.92          |29.60            |0.16                      |0.16                       |1.01               |
+|Guay 1991          |7.50          |23.50            |0.09                      |0.07                       |0.77               |
+|Guay 1991          |7.50          |15.20            |0.19                      |0.19                       |0.99               |
+|Guay 1991          |8.75          |22.60            |0.15                      |0.14                       |0.93               |
+|den Hollander 1992 |0.92          |6.50             |50.66                     |54.89                      |1.08               |
+|den Hollander 1992 |0.83          |6.40             |33.61                     |55.63                      |1.66               |
+|den Hollander 1992 |0.99          |8.50             |47.54                     |56.46                      |1.19               |
+|den Hollander 1992 |0.30          |5.10             |44.42                     |73.46                      |1.65               |
+|den Hollander 1992 |0.92          |6.15             |38.17                     |46.96                      |1.23               |
+|den Hollander 1992 |1.30          |10.40            |58.34                     |56.16                      |0.96               |
+|den Hollander 1992 |9.00          |25.60            |27.13                     |53.50                      |1.97               |
+|den Hollander 1992 |3.50          |14.40            |44.66                     |50.68                      |1.13               |
+|den Hollander 1992 |5.50          |19.50            |49.70                     |51.23                      |1.03               |
+|den Hollander 1992 |3.50          |18.50            |54.50                     |54.94                      |1.01               |
+|Meistelman 1987    |4.70          |20.00            |14.12                     |10.93                      |0.77               |
+|Meistelman 1987    |5.50          |20.00            |8.14                      |10.15                      |1.25               |
+|Meistelman 1987    |7.70          |23.00            |5.79                      |10.15                      |1.75               |
+|Meistelman 1987    |4.50          |14.00            |10.44                     |8.67                       |0.83               |
+|Meistelman 1987    |4.80          |24.00            |12.98                     |12.92                      |1.00               |
+|Meistelman 1987    |4.50          |20.00            |10.00                     |11.20                      |1.12               |
+|Meistelman 1987    |6.20          |23.00            |10.91                     |11.02                      |1.01               |
+|Meistelman 1987    |4.90          |22.00            |17.78                     |11.71                      |0.66               |
 
 
 Table 2: GMFE for Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Parameter |GMFE   |
-|:---------|:------|
-|AUC       |1.2542 |
+|Parameter |GMFE |
+|:---------|:----|
+|AUC       |1.25 |
 
 
 Figure 1: Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -186,11 +186,11 @@ Figure 1: Overall predictivity of the PBPK models. Open circles represent mean r
 Table 3: Measure of Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|                       |Number |Ratio   |
-|:----------------------|:------|:-------|
-|Points Total           |39     |NA      |
-|Points within 1.5-fold |29     |0.74359 |
-|Points within 2-fold   |38     |0.97436 |
+|                       |Number |Ratio |
+|:----------------------|:------|:-----|
+|Points Total           |39     |NA    |
+|Points within 1.5-fold |29     |0.74  |
+|Points within 2-fold   |38     |0.97  |
 
 
 
@@ -212,35 +212,35 @@ Table 4: Overall predictivity of the sufentanil PBPK model. Open circles represe
 
 |Study ID   |Age [month(s)] |Body Weight [kg] |Observed AUC [µmol*min/l] |Predicted AUC [µmol*min/l] |Pred/Obs AUC Ratio |
 |:----------|:--------------|:----------------|:-------------------------|:--------------------------|:------------------|
-|Davis 1987 |1.29167        |8.90             |2.143634                  |1.158587                   |0.54048            |
-|Davis 1987 |0.43333        |5.30             |1.410903                  |1.450964                   |1.02839            |
-|Guay 1991  |2.08333        |12.10            |0.280341                  |0.168538                   |0.60119            |
-|Guay 1991  |2.58333        |16.00            |0.119762                  |0.102728                   |0.85776            |
-|Guay 1991  |2.66667        |11.30            |0.230729                  |0.261336                   |1.13265            |
-|Guay 1991  |3.25000        |16.00            |0.213658                  |0.224529                   |1.05088            |
-|Guay 1991  |3.83333        |14.20            |0.171495                  |0.144406                   |0.84204            |
-|Guay 1991  |4.58333        |15.00            |0.174082                  |0.114986                   |0.66053            |
-|Guay 1991  |4.58333        |19.00            |0.348867                  |0.220920                   |0.63325            |
-|Guay 1991  |4.83333        |17.50            |0.180807                  |0.226177                   |1.25093            |
-|Guay 1991  |5.25000        |18.50            |0.112778                  |0.117011                   |1.03753            |
-|Guay 1991  |5.25000        |19.65            |0.220641                  |0.228543                   |1.03581            |
-|Guay 1991  |5.33333        |24.00            |0.350486                  |0.292623                   |0.83490            |
-|Guay 1991  |5.33333        |24.00            |0.195292                  |0.164338                   |0.84150            |
-|Guay 1991  |5.75000        |14.50            |0.392737                  |0.195428                   |0.49761            |
-|Guay 1991  |5.91667        |28.20            |0.329907                  |0.240516                   |0.72904            |
-|Guay 1991  |5.91667        |25.00            |0.147698                  |0.124090                   |0.84016            |
-|Guay 1991  |6.91667        |29.60            |0.159596                  |0.161050                   |1.00911            |
-|Guay 1991  |7.50000        |23.50            |0.090533                  |0.069585                   |0.76862            |
-|Guay 1991  |7.50000        |15.20            |0.190378                  |0.188672                   |0.99104            |
-|Guay 1991  |8.75000        |22.60            |0.146146                  |0.135709                   |0.92858            |
+|Davis 1987 |1.29           |8.90             |2.14                      |1.16                       |0.54               |
+|Davis 1987 |0.43           |5.30             |1.41                      |1.45                       |1.03               |
+|Guay 1991  |2.08           |12.10            |0.28                      |0.17                       |0.60               |
+|Guay 1991  |2.58           |16.00            |0.12                      |0.10                       |0.86               |
+|Guay 1991  |2.67           |11.30            |0.23                      |0.26                       |1.13               |
+|Guay 1991  |3.25           |16.00            |0.21                      |0.22                       |1.05               |
+|Guay 1991  |3.83           |14.20            |0.17                      |0.14                       |0.84               |
+|Guay 1991  |4.58           |15.00            |0.17                      |0.11                       |0.66               |
+|Guay 1991  |4.58           |19.00            |0.35                      |0.22                       |0.63               |
+|Guay 1991  |4.83           |17.50            |0.18                      |0.23                       |1.25               |
+|Guay 1991  |5.25           |18.50            |0.11                      |0.12                       |1.04               |
+|Guay 1991  |5.25           |19.65            |0.22                      |0.23                       |1.04               |
+|Guay 1991  |5.33           |24.00            |0.35                      |0.29                       |0.83               |
+|Guay 1991  |5.33           |24.00            |0.20                      |0.16                       |0.84               |
+|Guay 1991  |5.75           |14.50            |0.39                      |0.20                       |0.50               |
+|Guay 1991  |5.92           |28.20            |0.33                      |0.24                       |0.73               |
+|Guay 1991  |5.92           |25.00            |0.15                      |0.12                       |0.84               |
+|Guay 1991  |6.92           |29.60            |0.16                      |0.16                       |1.01               |
+|Guay 1991  |7.50           |23.50            |0.09                      |0.07                       |0.77               |
+|Guay 1991  |7.50           |15.20            |0.19                      |0.19                       |0.99               |
+|Guay 1991  |8.75           |22.60            |0.15                      |0.14                       |0.93               |
 
 
 Table 5: GMFE for Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Parameter |GMFE   |
-|:---------|:------|
-|AUC       |1.2518 |
+|Parameter |GMFE |
+|:---------|:----|
+|AUC       |1.25 |
 
 
 Figure 2: Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -252,11 +252,11 @@ Figure 2: Overall predictivity of the sufentanil PBPK model. Open circles repres
 Table 6: Measure of Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|                       |Number |Ratio   |
-|:----------------------|:------|:-------|
-|Points Total           |21     |NA      |
-|Points within 1.5-fold |16     |0.76190 |
-|Points within 2-fold   |20     |0.95238 |
+|                       |Number |Ratio |
+|:----------------------|:------|:-----|
+|Points Total           |21     |NA    |
+|Points within 1.5-fold |16     |0.76  |
+|Points within 2-fold   |20     |0.95  |
 
 
 
@@ -325,32 +325,32 @@ Table 7: Overall predictivity of the alfentanil PBPK model. Open circles represe
 
 |Study ID           |Age [year(s)] |Body Weight [kg] |Observed AUC [µmol*min/l] |Predicted AUC [µmol*min/l] |Pred/Obs AUC Ratio |
 |:------------------|:-------------|:----------------|:-------------------------|:--------------------------|:------------------|
-|den Hollander 1992 |0.92          |6.500            |50.6578                   |54.8879                    |1.08350            |
-|den Hollander 1992 |0.83          |6.400            |33.6118                   |55.6314                    |1.65511            |
-|den Hollander 1992 |0.99          |8.500            |47.5367                   |56.4629                    |1.18777            |
-|den Hollander 1992 |0.30          |5.100            |44.4156                   |73.4642                    |1.65402            |
-|den Hollander 1992 |0.92          |6.149            |38.1734                   |46.9624                    |1.23024            |
-|den Hollander 1992 |1.30          |10.400           |58.3405                   |56.1573                    |0.96258            |
-|den Hollander 1992 |9.00          |25.600           |27.1295                   |53.4993                    |1.97199            |
-|den Hollander 1992 |3.50          |14.400           |44.6557                   |50.6780                    |1.13486            |
-|den Hollander 1992 |5.50          |19.500           |49.6975                   |51.2254                    |1.03074            |
-|den Hollander 1992 |3.50          |18.500           |54.4992                   |54.9450                    |1.00818            |
-|Meistelman 1987    |4.70          |20.000           |14.1226                   |10.9283                    |0.77382            |
-|Meistelman 1987    |5.50          |20.000           |8.1385                    |10.1490                    |1.24704            |
-|Meistelman 1987    |7.70          |23.000           |5.7852                    |10.1453                    |1.75367            |
-|Meistelman 1987    |4.50          |14.000           |10.4385                   |8.6663                     |0.83022            |
-|Meistelman 1987    |4.80          |24.000           |12.9775                   |12.9207                    |0.99562            |
-|Meistelman 1987    |4.50          |20.000           |10.0035                   |11.1956                    |1.11917            |
-|Meistelman 1987    |6.20          |23.000           |10.9129                   |11.0203                    |1.00984            |
-|Meistelman 1987    |4.90          |22.000           |17.7840                   |11.7051                    |0.65818            |
+|den Hollander 1992 |0.92          |6.50             |50.66                     |54.89                      |1.08               |
+|den Hollander 1992 |0.83          |6.40             |33.61                     |55.63                      |1.66               |
+|den Hollander 1992 |0.99          |8.50             |47.54                     |56.46                      |1.19               |
+|den Hollander 1992 |0.30          |5.10             |44.42                     |73.46                      |1.65               |
+|den Hollander 1992 |0.92          |6.15             |38.17                     |46.96                      |1.23               |
+|den Hollander 1992 |1.30          |10.40            |58.34                     |56.16                      |0.96               |
+|den Hollander 1992 |9.00          |25.60            |27.13                     |53.50                      |1.97               |
+|den Hollander 1992 |3.50          |14.40            |44.66                     |50.68                      |1.13               |
+|den Hollander 1992 |5.50          |19.50            |49.70                     |51.23                      |1.03               |
+|den Hollander 1992 |3.50          |18.50            |54.50                     |54.94                      |1.01               |
+|Meistelman 1987    |4.70          |20.00            |14.12                     |10.93                      |0.77               |
+|Meistelman 1987    |5.50          |20.00            |8.14                      |10.15                      |1.25               |
+|Meistelman 1987    |7.70          |23.00            |5.79                      |10.15                      |1.75               |
+|Meistelman 1987    |4.50          |14.00            |10.44                     |8.67                       |0.83               |
+|Meistelman 1987    |4.80          |24.00            |12.98                     |12.92                      |1.00               |
+|Meistelman 1987    |4.50          |20.00            |10.00                     |11.20                      |1.12               |
+|Meistelman 1987    |6.20          |23.00            |10.91                     |11.02                      |1.01               |
+|Meistelman 1987    |4.90          |22.00            |17.78                     |11.71                      |0.66               |
 
 
 Table 8: GMFE for Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Parameter |GMFE   |
-|:---------|:------|
-|AUC       |1.2571 |
+|Parameter |GMFE |
+|:---------|:----|
+|AUC       |1.26 |
 
 
 Figure 9: Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -362,11 +362,11 @@ Figure 9: Overall predictivity of the alfentanil PBPK model. Open circles repres
 Table 9: Measure of Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|                       |Number |Ratio   |
-|:----------------------|:------|:-------|
-|Points Total           |18     |NA      |
-|Points within 1.5-fold |13     |0.72222 |
-|Points within 2-fold   |18     |1.00000 |
+|                       |Number |Ratio |
+|:----------------------|:------|:-----|
+|Points Total           |18     |NA    |
+|Points within 1.5-fold |13     |0.72  |
+|Points within 2-fold   |18     |1.00  |
 
 
 
