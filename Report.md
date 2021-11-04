@@ -475,16 +475,18 @@ Below you find the input goodness-of-fit visual diagnostic plots for sufentanil 
 
 
 
+Table 10: GMFE for Goodness-of-fit visual diagnostic plots of the sufentanil PBPK model performance: observed versus individually predicted plasma concentration versus time of all adult data.
+
+
+|Group         |GMFE |
+|:-------------|:----|
+|Sufentanil iv |1.40 |
+
+
 Figure 14: Goodness-of-fit visual diagnostic plots of the sufentanil PBPK model performance: observed versus individually predicted plasma concentration versus time of all adult data.
 
 
-![](007_section_4/009_section_41/GOFMergedPlot-1-predictedVsObserved.png)
-
-
-Figure 15: Goodness-of-fit visual diagnostic plots of the sufentanil PBPK model performance: weighted residuals versus time of all adult data.
-
-
-![](007_section_4/009_section_41/GOFMergedPlot-2-residualsOverTime.png)
+![](007_section_4/009_section_41/2-predictedVsObserved-gof-plot.png)
 
 
 
@@ -495,37 +497,37 @@ Figure 15: Goodness-of-fit visual diagnostic plots of the sufentanil PBPK model 
 Simulated versus observed plasma concentration-time profiles of all data are listed below.
 
 
-Figure 16: Time Profile Analysis
+Figure 15: Time Profile Analysis
 
 
 ![](007_section_4/010_section_42/5-Sufentanil-Bovill%201984.png)
 
 
-Figure 17: Time Profile Analysis 1
+Figure 16: Time Profile Analysis 1
 
 
 ![](007_section_4/010_section_42/6-Sufentanil-Bovill%201984.png)
 
 
-Figure 18: Time Profile Analysis
+Figure 17: Time Profile Analysis
 
 
 ![](007_section_4/010_section_42/7-Sufentanil-Willsie%202014%20adults%20IV%20(for%20reporting).png)
 
 
-Figure 19: Time Profile Analysis 1
+Figure 18: Time Profile Analysis 1
 
 
 ![](007_section_4/010_section_42/8-Sufentanil-Willsie%202014%20adults%20IV%20(for%20reporting).png)
 
 
-Figure 20: Time Profile Analysis
+Figure 19: Time Profile Analysis
 
 
 ![](007_section_4/010_section_42/9-Sufentanil-Taverne%201992%20(for%20reporting).png)
 
 
-Figure 21: Time Profile Analysis 1
+Figure 20: Time Profile Analysis 1
 
 
 ![](007_section_4/010_section_42/10-Sufentanil-Taverne%201992%20(for%20reporting).png)
