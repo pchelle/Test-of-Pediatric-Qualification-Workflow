@@ -1,17 +1,8 @@
- * [1 Pediatric Qualification Package: CYP3A4 Ontogeny](#1-pediatric-qualification-package-cyp3a4-ontogeny)
-   * [1.1 Translation of Adult PBPK to Children](#11-translation-of-adult-pbpk-to-children)
-   * [1.2 Anthropometric and Physiological Information ](#12-anthropometric-and-physiological-information-)
-   * [1.3 Qualification of **CYP3A4 enzyme ontogeny**](#13-qualification-of-cyp3a4-enzyme-ontogeny)
-   * [1.4 Evaluation of Pediatric translation](#14-evaluation-of-pediatric-translation)
-     * [1.4.1 Sufentanil model](#141-sufentanil-model)
-       * [1.4.1.1 Concentration-Time Profiles](#1411-concentration-time-profiles)
-     * [1.4.2 Alfentanil model](#142-alfentanil-model)
-       * [1.4.2.1 Concentration-Time Profiles](#1421-concentration-time-profiles)
 
 
 
 
-# 1 Pediatric Qualification Package: CYP3A4 Ontogeny
+# Pediatric Qualification Package: CYP3A4 Ontogeny
 
 
 
@@ -33,6 +24,32 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
 
 
 
+# Table of Contents
+
+ * [1 Introduction to Pediatric Translation and CYP3A4 Ontogeny Qualification](#1-introduction-to-pediatric-translation-and-cyp3a4-ontogeny-qualification)
+   * [Translation of Adult PBPK to Children](#translation-of-adult-pbpk-to-children)
+   * [Anthropometric and Physiological Information ](#anthropometric-and-physiological-information-)
+   * [Qualification of **CYP3A4 enzyme ontogeny**](#qualification-of-cyp3a4-enzyme-ontogeny)
+ * [2 Pediatric translation qualification results](#2-pediatric-translation-qualification-results)
+   * [Evaluation of Pediatric translation](#evaluation-of-pediatric-translation)
+ * [2.1 Sufentanil PK Ratio tables and Figures](#21-sufentanil-pk-ratio-tables-and-figures)
+ * [2.1 Sufentanil PK Ratio tables and Figures](#21-sufentanil-pk-ratio-tables-and-figures)
+     * [Sufentanil model](#sufentanil-model)
+ * [2.2 Sufentanil Concentration-Time profiles in Children](#22-sufentanil-concentration-time-profiles-in-children)
+ * [2.2 Sufentanil Concentration-Time profiles in Children](#22-sufentanil-concentration-time-profiles-in-children)
+       * [Concentration-Time Profiles](#concentration-time-profiles)
+ * [2.3 Alfentanil PK Ratio tables and Figures](#23-alfentanil-pk-ratio-tables-and-figures)
+ * [2.3 Alfentanil PK Ratio tables and Figures](#23-alfentanil-pk-ratio-tables-and-figures)
+     * [Alfentanil model](#alfentanil-model)
+ * [2.4 Alfentanil Concentration-Time profiles in Children](#24-alfentanil-concentration-time-profiles-in-children)
+ * [2.4 Alfentanil Concentration-Time profiles in Children](#24-alfentanil-concentration-time-profiles-in-children)
+       * [Concentration-Time Profiles](#concentration-time-profiles)
+ * [3 References](#3-references)
+
+
+
+
+# 1 Introduction to Pediatric Translation and CYP3A4 Ontogeny Qualification
 
 
 The presented qualification report evaluates the predictive performance of the OSP suite to predict cytochrome P450 3A4 (CYP3A4)-mediated drug clearance in children.
@@ -40,7 +57,7 @@ The presented qualification report evaluates the predictive performance of the O
 Therefore, PBPK models of specific *in vivo* probe substances covering children aged below 6 months up to adolescents were built and evaluated. All models are whole-body PBPK models, allowing for dynamic pediatric translation in organs expressing CYP3A4. The qualification report demonstrates the level of confidence of the OSP suite with regard to reliable PBPK predictions of age-related CYP3A4-mediated drug clearance during model-informed drug development. The presented PBPK models as well as the respective qualification plan and qualification report are provided open-source and transparently documented (https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_CYP3A4_Ontogeny). 
 
 
-## 1.1 Translation of Adult PBPK to Children
+## Translation of Adult PBPK to Children
 
 Using a developed and validated (adult) PBPK model for an *in vivo* probe substance, a pediatric PBPK model can be established for children by translating physiology, clearance processes (as parameterized in the adult model) and age-dependent protein binding including the variability therein.[[Maharaj 2013](#3-references)] 
 
@@ -53,13 +70,13 @@ For qualification purpose, during the translation of adult PBPK to children the 
 - when translating an adult model to children, it was assumed that the metabolism and excretion pathways are qualitatively the same in children as in adults.
 - no further changes to input parameters other than those for the physiology and protein binding. All other parameters (e.g. lipophilicity, intestinal permeability, solubility) were kept unchanged.
 
-## 1.2 Anthropometric and Physiological Information 
+## Anthropometric and Physiological Information 
 
 Regarding the age-dependencies of the relevant anthropometric (height, weight) and physiological parameters (e.g. blood flows, organ volumes, binding protein concentrations, hematocrit, cardiac output) in children was gathered from the literature and has been previously published [[Edginton 2006](#3-references)]. The information was incorporated into PK-Sim® and was used as default values for the simulations in children.
 
 The  applied ontogeny and variability of plasma proteins and active processes that are integrated into PK-Sim® for translation to children are described in the publicly available ‘PK-Sim® Ontogeny Database Version 7.3' [[Ontogeny Database](#3-references)] or otherwise referenced for the specific process.
 
-## 1.3 Qualification of **CYP3A4 enzyme ontogeny**
+## Qualification of **CYP3A4 enzyme ontogeny**
 
 To qualify the OSP suite for the pediatric translation of the pharmacokinetics of new drugs that are metabolized by CYP3A4, the following set of probe substances was included:
 
@@ -74,7 +91,10 @@ The adult PBPK model reports and the corresponding PK-Sim project files are file
 
 
 
-## 1.4 Evaluation of Pediatric translation
+# 2 Pediatric translation qualification results
+
+
+## Evaluation of Pediatric translation
 
 All pediatric translations are pure retrospective predictions, no pediatric pharmacokinetic studies were used to inform model parameters. All parameters necessary to model the pediatric populations, such as demographics (age, weight, height), as well as dosing formulation information were taken from the respective pediatrics studies from literature in order to evaluate their predictive performance. 
 
@@ -90,50 +110,20 @@ In the next sections the demographics as well as the evaluation results of the p
 
 
 
-Table 1: Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+Figure 1: Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Study ID           |Age [year(s)] |Body Weight [kg] |Observed AUC [µmol*min/l] |Predicted AUC [µmol*min/l] |Pred/Obs AUC Ratio |
-|:------------------|:-------------|:----------------|:-------------------------|:--------------------------|:------------------|
-|Davis 1987         |1.29          |8.90             |2.14                      |1.16                       |0.54               |
-|Davis 1987         |0.43          |5.30             |1.41                      |1.45                       |1.03               |
-|Guay 1991          |2.08          |12.10            |0.28                      |0.17                       |0.60               |
-|Guay 1991          |2.58          |16.00            |0.12                      |0.10                       |0.86               |
-|Guay 1991          |2.67          |11.30            |0.23                      |0.26                       |1.13               |
-|Guay 1991          |3.25          |16.00            |0.21                      |0.22                       |1.05               |
-|Guay 1991          |3.83          |14.20            |0.17                      |0.14                       |0.84               |
-|Guay 1991          |4.58          |15.00            |0.17                      |0.11                       |0.66               |
-|Guay 1991          |4.58          |19.00            |0.35                      |0.22                       |0.63               |
-|Guay 1991          |4.83          |17.50            |0.18                      |0.23                       |1.25               |
-|Guay 1991          |5.25          |18.50            |0.11                      |0.12                       |1.04               |
-|Guay 1991          |5.25          |19.65            |0.22                      |0.23                       |1.04               |
-|Guay 1991          |5.33          |24.00            |0.35                      |0.29                       |0.83               |
-|Guay 1991          |5.33          |24.00            |0.20                      |0.16                       |0.84               |
-|Guay 1991          |5.75          |14.50            |0.39                      |0.20                       |0.50               |
-|Guay 1991          |5.92          |28.20            |0.33                      |0.24                       |0.73               |
-|Guay 1991          |5.92          |25.00            |0.15                      |0.12                       |0.84               |
-|Guay 1991          |6.92          |29.60            |0.16                      |0.16                       |1.01               |
-|Guay 1991          |7.50          |23.50            |0.09                      |0.07                       |0.77               |
-|Guay 1991          |7.50          |15.20            |0.19                      |0.19                       |0.99               |
-|Guay 1991          |8.75          |22.60            |0.15                      |0.14                       |0.93               |
-|den Hollander 1992 |0.92          |6.50             |50.66                     |50.01                      |0.99               |
-|den Hollander 1992 |0.83          |6.40             |33.61                     |50.75                      |1.51               |
-|den Hollander 1992 |0.99          |8.50             |47.54                     |54.22                      |1.14               |
-|den Hollander 1992 |0.30          |5.10             |44.42                     |67.61                      |1.52               |
-|den Hollander 1992 |0.92          |6.15             |38.17                     |42.72                      |1.12               |
-|den Hollander 1992 |1.30          |10.40            |58.34                     |50.97                      |0.87               |
-|den Hollander 1992 |9.00          |25.60            |27.13                     |46.58                      |1.72               |
-|den Hollander 1992 |3.50          |14.40            |44.66                     |45.32                      |1.01               |
-|den Hollander 1992 |5.50          |19.50            |49.70                     |45.40                      |0.91               |
-|den Hollander 1992 |3.50          |18.50            |54.50                     |49.18                      |0.90               |
-|Meistelman 1987    |4.70          |20.00            |14.12                     |9.82                       |0.70               |
-|Meistelman 1987    |5.50          |20.00            |8.14                      |9.10                       |1.12               |
-|Meistelman 1987    |7.70          |23.00            |5.79                      |9.06                       |1.57               |
-|Meistelman 1987    |4.50          |14.00            |10.44                     |7.81                       |0.75               |
-|Meistelman 1987    |4.80          |24.00            |12.98                     |11.61                      |0.89               |
-|Meistelman 1987    |4.50          |20.00            |10.00                     |10.07                      |1.01               |
-|Meistelman 1987    |6.20          |23.00            |10.91                     |9.86                       |0.90               |
-|Meistelman 1987    |4.90          |22.00            |17.78                     |10.51                      |0.59               |
+![](002_section_3/1-pk-ratio-plot-AUC.png)
+
+
+Table 1: Measure of Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+
+
+|                       | Number|Ratio |
+|:----------------------|------:|:-----|
+|Points Total           |     39|NA    |
+|Points within 1.5-fold |     29|0.74  |
+|Points within 2-fold   |     38|0.97  |
 
 
 Table 2: GMFE for Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -144,26 +134,60 @@ Table 2: GMFE for Overall predictivity of the PBPK models. Open circles represen
 |AUC       |1.25 |
 
 
-Figure 1: Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+Table 3: Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-![](002_section_3/3-pk-ratio-plot-AUC.png)
+|Study ID           |Age [year(s)] |Body Weight [kg] |Predicted AUC [µmol*min/l] |Observed AUC [µmol*min/l] |Pred/Obs AUC Ratio |
+|:------------------|:-------------|:----------------|:--------------------------|:-------------------------|:------------------|
+|Davis 1987         |1.29          |8.90             |1.16                       |2.14                      |0.54               |
+|Davis 1987         |0.43          |5.30             |1.45                       |1.41                      |1.03               |
+|Guay 1991          |2.08          |12.10            |0.17                       |0.28                      |0.60               |
+|Guay 1991          |2.58          |16.00            |0.10                       |0.12                      |0.86               |
+|Guay 1991          |2.67          |11.30            |0.26                       |0.23                      |1.13               |
+|Guay 1991          |3.25          |16.00            |0.22                       |0.21                      |1.05               |
+|Guay 1991          |3.83          |14.20            |0.14                       |0.17                      |0.84               |
+|Guay 1991          |4.58          |15.00            |0.11                       |0.17                      |0.66               |
+|Guay 1991          |4.58          |19.00            |0.22                       |0.35                      |0.63               |
+|Guay 1991          |4.83          |17.50            |0.23                       |0.18                      |1.25               |
+|Guay 1991          |5.25          |18.50            |0.12                       |0.11                      |1.04               |
+|Guay 1991          |5.25          |19.65            |0.23                       |0.22                      |1.04               |
+|Guay 1991          |5.33          |24.00            |0.29                       |0.35                      |0.83               |
+|Guay 1991          |5.33          |24.00            |0.16                       |0.20                      |0.84               |
+|Guay 1991          |5.75          |14.50            |0.20                       |0.39                      |0.50               |
+|Guay 1991          |5.92          |28.20            |0.24                       |0.33                      |0.73               |
+|Guay 1991          |5.92          |25.00            |0.12                       |0.15                      |0.84               |
+|Guay 1991          |6.92          |29.60            |0.16                       |0.16                      |1.01               |
+|Guay 1991          |7.50          |23.50            |0.07                       |0.09                      |0.77               |
+|Guay 1991          |7.50          |15.20            |0.19                       |0.19                      |0.99               |
+|Guay 1991          |8.75          |22.60            |0.14                       |0.15                      |0.93               |
+|den Hollander 1992 |0.92          |6.50             |50.01                      |50.66                     |0.99               |
+|den Hollander 1992 |0.83          |6.40             |50.75                      |33.61                     |1.51               |
+|den Hollander 1992 |0.99          |8.50             |54.22                      |47.54                     |1.14               |
+|den Hollander 1992 |0.30          |5.10             |67.61                      |44.42                     |1.52               |
+|den Hollander 1992 |0.92          |6.15             |42.72                      |38.17                     |1.12               |
+|den Hollander 1992 |1.30          |10.40            |50.97                      |58.34                     |0.87               |
+|den Hollander 1992 |9.00          |25.60            |46.58                      |27.13                     |1.72               |
+|den Hollander 1992 |3.50          |14.40            |45.32                      |44.66                     |1.01               |
+|den Hollander 1992 |5.50          |19.50            |45.40                      |49.70                     |0.91               |
+|den Hollander 1992 |3.50          |18.50            |49.18                      |54.50                     |0.90               |
+|Meistelman 1987    |4.70          |20.00            |9.82                       |14.12                     |0.70               |
+|Meistelman 1987    |5.50          |20.00            |9.10                       |8.14                      |1.12               |
+|Meistelman 1987    |7.70          |23.00            |9.06                       |5.79                      |1.57               |
+|Meistelman 1987    |4.50          |14.00            |7.81                       |10.44                     |0.75               |
+|Meistelman 1987    |4.80          |24.00            |11.61                      |12.98                     |0.89               |
+|Meistelman 1987    |4.50          |20.00            |10.07                      |10.00                     |1.01               |
+|Meistelman 1987    |6.20          |23.00            |9.86                       |10.91                     |0.90               |
+|Meistelman 1987    |4.90          |22.00            |10.51                      |17.78                     |0.59               |
 
 
-Table 3: Measure of Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
-
-
-|                       | Number|Ratio |
-|:----------------------|------:|:-----|
-|Points Total           |     39|NA    |
-|Points within 1.5-fold |     29|0.74  |
-|Points within 2-fold   |     38|0.97  |
 
 
 
+# 2.1 Sufentanil PK Ratio tables and Figures
+# 2.1 Sufentanil PK Ratio tables and Figures
 
 
-### 1.4.1 Sufentanil model
+### Sufentanil model
 
 Sufentanil PBPK predictions in children were evaluated using pharmacokinetic (PK) data reported in the following studies: 
 
@@ -174,32 +198,20 @@ The pediatric PBPK model predicted the clearance values of sufentanil observed i
 
 
 
-Table 4: Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+Figure 2: Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Study ID   |Age [month(s)] |Body Weight [kg] |Observed AUC [µmol*min/l] |Predicted AUC [µmol*min/l] |Pred/Obs AUC Ratio |
-|:----------|:--------------|:----------------|:-------------------------|:--------------------------|:------------------|
-|Davis 1987 |1.29           |8.90             |2.14                      |1.16                       |0.54               |
-|Davis 1987 |0.43           |5.30             |1.41                      |1.45                       |1.03               |
-|Guay 1991  |2.08           |12.10            |0.28                      |0.17                       |0.60               |
-|Guay 1991  |2.58           |16.00            |0.12                      |0.10                       |0.86               |
-|Guay 1991  |2.67           |11.30            |0.23                      |0.26                       |1.13               |
-|Guay 1991  |3.25           |16.00            |0.21                      |0.22                       |1.05               |
-|Guay 1991  |3.83           |14.20            |0.17                      |0.14                       |0.84               |
-|Guay 1991  |4.58           |15.00            |0.17                      |0.11                       |0.66               |
-|Guay 1991  |4.58           |19.00            |0.35                      |0.22                       |0.63               |
-|Guay 1991  |4.83           |17.50            |0.18                      |0.23                       |1.25               |
-|Guay 1991  |5.25           |18.50            |0.11                      |0.12                       |1.04               |
-|Guay 1991  |5.25           |19.65            |0.22                      |0.23                       |1.04               |
-|Guay 1991  |5.33           |24.00            |0.35                      |0.29                       |0.83               |
-|Guay 1991  |5.33           |24.00            |0.20                      |0.16                       |0.84               |
-|Guay 1991  |5.75           |14.50            |0.39                      |0.20                       |0.50               |
-|Guay 1991  |5.92           |28.20            |0.33                      |0.24                       |0.73               |
-|Guay 1991  |5.92           |25.00            |0.15                      |0.12                       |0.84               |
-|Guay 1991  |6.92           |29.60            |0.16                      |0.16                       |1.01               |
-|Guay 1991  |7.50           |23.50            |0.09                      |0.07                       |0.77               |
-|Guay 1991  |7.50           |15.20            |0.19                      |0.19                       |0.99               |
-|Guay 1991  |8.75           |22.60            |0.15                      |0.14                       |0.93               |
+![](002_section_3/003_section_31/5-pk-ratio-plot-AUC.png)
+
+
+Table 4: Measure of Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+
+
+|                       | Number|Ratio |
+|:----------------------|------:|:-----|
+|Points Total           |     21|NA    |
+|Points within 1.5-fold |     16|0.76  |
+|Points within 2-fold   |     20|0.95  |
 
 
 Table 5: GMFE for Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -210,26 +222,42 @@ Table 5: GMFE for Overall predictivity of the sufentanil PBPK model. Open circle
 |AUC       |1.25 |
 
 
-Figure 2: Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+Table 6: Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-![](002_section_3/003_section_31/7-pk-ratio-plot-AUC.png)
+|Study ID   |Age [month(s)] |Body Weight [kg] |Predicted AUC [µmol*min/l] |Observed AUC [µmol*min/l] |Pred/Obs AUC Ratio |
+|:----------|:--------------|:----------------|:--------------------------|:-------------------------|:------------------|
+|Davis 1987 |1.29           |8.90             |1.16                       |2.14                      |0.54               |
+|Davis 1987 |0.43           |5.30             |1.45                       |1.41                      |1.03               |
+|Guay 1991  |2.08           |12.10            |0.17                       |0.28                      |0.60               |
+|Guay 1991  |2.58           |16.00            |0.10                       |0.12                      |0.86               |
+|Guay 1991  |2.67           |11.30            |0.26                       |0.23                      |1.13               |
+|Guay 1991  |3.25           |16.00            |0.22                       |0.21                      |1.05               |
+|Guay 1991  |3.83           |14.20            |0.14                       |0.17                      |0.84               |
+|Guay 1991  |4.58           |15.00            |0.11                       |0.17                      |0.66               |
+|Guay 1991  |4.58           |19.00            |0.22                       |0.35                      |0.63               |
+|Guay 1991  |4.83           |17.50            |0.23                       |0.18                      |1.25               |
+|Guay 1991  |5.25           |18.50            |0.12                       |0.11                      |1.04               |
+|Guay 1991  |5.25           |19.65            |0.23                       |0.22                      |1.04               |
+|Guay 1991  |5.33           |24.00            |0.29                       |0.35                      |0.83               |
+|Guay 1991  |5.33           |24.00            |0.16                       |0.20                      |0.84               |
+|Guay 1991  |5.75           |14.50            |0.20                       |0.39                      |0.50               |
+|Guay 1991  |5.92           |28.20            |0.24                       |0.33                      |0.73               |
+|Guay 1991  |5.92           |25.00            |0.12                       |0.15                      |0.84               |
+|Guay 1991  |6.92           |29.60            |0.16                       |0.16                      |1.01               |
+|Guay 1991  |7.50           |23.50            |0.07                       |0.09                      |0.77               |
+|Guay 1991  |7.50           |15.20            |0.19                       |0.19                      |0.99               |
+|Guay 1991  |8.75           |22.60            |0.14                       |0.15                      |0.93               |
 
 
-Table 6: Measure of Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
-
-
-|                       | Number|Ratio |
-|:----------------------|------:|:-----|
-|Points Total           |     21|NA    |
-|Points within 1.5-fold |     16|0.76  |
-|Points within 2-fold   |     20|0.95  |
 
 
 
+# 2.2 Sufentanil Concentration-Time profiles in Children
+# 2.2 Sufentanil Concentration-Time profiles in Children
 
 
-#### 1.4.1.1 Concentration-Time Profiles
+#### Concentration-Time Profiles
 
 Predicted versus observed plasma concentration-time profiles are listed below. Only simulations where observed data was available for comparison are shown.  Depending if the observed data were individual data or aggregated data, individual predictions or population predictions including variability are shown, respectively.
 
@@ -273,7 +301,11 @@ Figure 8: Time Profile Analysis 1
 
 
 
-### 1.4.2 Alfentanil model
+# 2.3 Alfentanil PK Ratio tables and Figures
+# 2.3 Alfentanil PK Ratio tables and Figures
+
+
+### Alfentanil model
 
 Alfentanil PBPK predictions in children were evaluated using pharmacokinetic (PK) data reported in the following studies: 
 
@@ -284,29 +316,20 @@ The pediatric PBPK model predicted the AUC values of alfentanil observed in pedi
 
 
 
-Table 7: Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+Figure 9: Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Study ID           |Age [year(s)] |Body Weight [kg] |Observed AUC [µmol*min/l] |Predicted AUC [µmol*min/l] |Pred/Obs AUC Ratio |
-|:------------------|:-------------|:----------------|:-------------------------|:--------------------------|:------------------|
-|den Hollander 1992 |0.92          |6.50             |50.66                     |50.01                      |0.99               |
-|den Hollander 1992 |0.83          |6.40             |33.61                     |50.75                      |1.51               |
-|den Hollander 1992 |0.99          |8.50             |47.54                     |54.22                      |1.14               |
-|den Hollander 1992 |0.30          |5.10             |44.42                     |67.61                      |1.52               |
-|den Hollander 1992 |0.92          |6.15             |38.17                     |42.72                      |1.12               |
-|den Hollander 1992 |1.30          |10.40            |58.34                     |50.97                      |0.87               |
-|den Hollander 1992 |9.00          |25.60            |27.13                     |46.58                      |1.72               |
-|den Hollander 1992 |3.50          |14.40            |44.66                     |45.32                      |1.01               |
-|den Hollander 1992 |5.50          |19.50            |49.70                     |45.40                      |0.91               |
-|den Hollander 1992 |3.50          |18.50            |54.50                     |49.18                      |0.90               |
-|Meistelman 1987    |4.70          |20.00            |14.12                     |9.82                       |0.70               |
-|Meistelman 1987    |5.50          |20.00            |8.14                      |9.10                       |1.12               |
-|Meistelman 1987    |7.70          |23.00            |5.79                      |9.06                       |1.57               |
-|Meistelman 1987    |4.50          |14.00            |10.44                     |7.81                       |0.75               |
-|Meistelman 1987    |4.80          |24.00            |12.98                     |11.61                      |0.89               |
-|Meistelman 1987    |4.50          |20.00            |10.00                     |10.07                      |1.01               |
-|Meistelman 1987    |6.20          |23.00            |10.91                     |9.86                       |0.90               |
-|Meistelman 1987    |4.90          |22.00            |17.78                     |10.51                      |0.59               |
+![](002_section_3/005_section_33/9-pk-ratio-plot-AUC.png)
+
+
+Table 7: Measure of Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+
+
+|                       | Number|Ratio |
+|:----------------------|------:|:-----|
+|Points Total           |     18|NA    |
+|Points within 1.5-fold |     13|0.72  |
+|Points within 2-fold   |     18|1.00  |
 
 
 Table 8: GMFE for Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -317,26 +340,39 @@ Table 8: GMFE for Overall predictivity of the alfentanil PBPK model. Open circle
 |AUC       |1.24 |
 
 
-Figure 9: Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
+Table 9: Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-![](002_section_3/005_section_33/11-pk-ratio-plot-AUC.png)
+|Study ID           |Age [year(s)] |Body Weight [kg] |Predicted AUC [µmol*min/l] |Observed AUC [µmol*min/l] |Pred/Obs AUC Ratio |
+|:------------------|:-------------|:----------------|:--------------------------|:-------------------------|:------------------|
+|den Hollander 1992 |0.92          |6.50             |50.01                      |50.66                     |0.99               |
+|den Hollander 1992 |0.83          |6.40             |50.75                      |33.61                     |1.51               |
+|den Hollander 1992 |0.99          |8.50             |54.22                      |47.54                     |1.14               |
+|den Hollander 1992 |0.30          |5.10             |67.61                      |44.42                     |1.52               |
+|den Hollander 1992 |0.92          |6.15             |42.72                      |38.17                     |1.12               |
+|den Hollander 1992 |1.30          |10.40            |50.97                      |58.34                     |0.87               |
+|den Hollander 1992 |9.00          |25.60            |46.58                      |27.13                     |1.72               |
+|den Hollander 1992 |3.50          |14.40            |45.32                      |44.66                     |1.01               |
+|den Hollander 1992 |5.50          |19.50            |45.40                      |49.70                     |0.91               |
+|den Hollander 1992 |3.50          |18.50            |49.18                      |54.50                     |0.90               |
+|Meistelman 1987    |4.70          |20.00            |9.82                       |14.12                     |0.70               |
+|Meistelman 1987    |5.50          |20.00            |9.10                       |8.14                      |1.12               |
+|Meistelman 1987    |7.70          |23.00            |9.06                       |5.79                      |1.57               |
+|Meistelman 1987    |4.50          |14.00            |7.81                       |10.44                     |0.75               |
+|Meistelman 1987    |4.80          |24.00            |11.61                      |12.98                     |0.89               |
+|Meistelman 1987    |4.50          |20.00            |10.07                      |10.00                     |1.01               |
+|Meistelman 1987    |6.20          |23.00            |9.86                       |10.91                     |0.90               |
+|Meistelman 1987    |4.90          |22.00            |10.51                      |17.78                     |0.59               |
 
 
-Table 9: Measure of Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
-
-
-|                       | Number|Ratio |
-|:----------------------|------:|:-----|
-|Points Total           |     18|NA    |
-|Points within 1.5-fold |     13|0.72  |
-|Points within 2-fold   |     18|1.00  |
 
 
 
+# 2.4 Alfentanil Concentration-Time profiles in Children
+# 2.4 Alfentanil Concentration-Time profiles in Children
 
 
-#### 1.4.2.1 Concentration-Time Profiles
+#### Concentration-Time Profiles
 
 Predicted versus observed plasma concentration-time profiles are listed below. Only simulations where observed data was available for comparison are shown.  Depending if the observed data were individual data or aggregated data, individual predictions or population predictions including variability are shown, respectively.
 
@@ -354,6 +390,9 @@ Figure 11: Time Profile Analysis 1
 
 
 
+
+
+# 3 References
 
 
 **Alfentanil-Model** Alfentanil-Model, Whole-body PBPK model of Alfentanil. (https://github.com/Open-Systems-Pharmacology/Alfentanil-Model) 
@@ -375,5 +414,6 @@ Figure 11: Time Profile Analysis 1
 **Ontogeny Database** OSPSuite.Documentation/PK-Sim Ontogeny Database Version 7.3.pdf (https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf)
 
 **Sufentanil-Model** Sufentanil-Model, Whole-body PBPK model of Sufentanil. (https://github.com/Open-Systems-Pharmacology/Sufentanil-Model)
+
 
 
