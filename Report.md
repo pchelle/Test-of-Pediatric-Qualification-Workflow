@@ -32,17 +32,13 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
    * [Qualification of **CYP3A4 enzyme ontogeny**](#qualification-of-cyp3a4-enzyme-ontogeny)
  * [2 Pediatric translation qualification results](#2-pediatric-translation-qualification-results)
    * [Evaluation of Pediatric translation](#evaluation-of-pediatric-translation)
- * [2.1 Sufentanil PK Ratio tables and Figures](#21-sufentanil-pk-ratio-tables-and-figures)
- * [2.1 Sufentanil PK Ratio tables and Figures](#21-sufentanil-pk-ratio-tables-and-figures)
+   * [2.1 Sufentanil PK Ratio tables and Figures](#21-sufentanil-pk-ratio-tables-and-figures)
      * [Sufentanil model](#sufentanil-model)
- * [2.2 Sufentanil Concentration-Time profiles in Children](#22-sufentanil-concentration-time-profiles-in-children)
- * [2.2 Sufentanil Concentration-Time profiles in Children](#22-sufentanil-concentration-time-profiles-in-children)
+   * [2.2 Sufentanil Concentration-Time profiles in Children](#22-sufentanil-concentration-time-profiles-in-children)
        * [Concentration-Time Profiles](#concentration-time-profiles)
- * [2.3 Alfentanil PK Ratio tables and Figures](#23-alfentanil-pk-ratio-tables-and-figures)
- * [2.3 Alfentanil PK Ratio tables and Figures](#23-alfentanil-pk-ratio-tables-and-figures)
+   * [2.3 Alfentanil PK Ratio tables and Figures](#23-alfentanil-pk-ratio-tables-and-figures)
      * [Alfentanil model](#alfentanil-model)
- * [2.4 Alfentanil Concentration-Time profiles in Children](#24-alfentanil-concentration-time-profiles-in-children)
- * [2.4 Alfentanil Concentration-Time profiles in Children](#24-alfentanil-concentration-time-profiles-in-children)
+   * [2.4 Alfentanil Concentration-Time profiles in Children](#24-alfentanil-concentration-time-profiles-in-children)
        * [Concentration-Time Profiles](#concentration-time-profiles)
  * [3 References](#3-references)
 
@@ -119,11 +115,11 @@ Figure 1: Overall predictivity of the PBPK models. Open circles represent mean r
 Table 1: Measure of Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|                       | Number|Ratio |
-|:----------------------|------:|:-----|
-|Points Total           |     39|NA    |
-|Points within 1.5-fold |     29|0.74  |
-|Points within 2-fold   |     38|0.97  |
+|                       | Number|Ratio [%] |
+|:----------------------|------:|:---------|
+|Points total           |     39|-        |
+|Points within 1.5 fold |     29|74.36     |
+|Points within 2 fold   |     38|97.44     |
 
 
 Table 2: GMFE for Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -137,54 +133,53 @@ Table 2: GMFE for Overall predictivity of the PBPK models. Open circles represen
 Table 3: Overall predictivity of the PBPK models. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Study ID           |Age [year(s)] |Body Weight [kg] |Predicted AUC [µmol*min/l] |Observed AUC [µmol*min/l] |Pred/Obs AUC Ratio |
-|:------------------|:-------------|:----------------|:--------------------------|:-------------------------|:------------------|
-|Davis 1987         |1.29          |8.90             |1.16                       |2.14                      |0.54               |
-|Davis 1987         |0.43          |5.30             |1.45                       |1.41                      |1.03               |
-|Guay 1991          |2.08          |12.10            |0.17                       |0.28                      |0.60               |
-|Guay 1991          |2.58          |16.00            |0.10                       |0.12                      |0.86               |
-|Guay 1991          |2.67          |11.30            |0.26                       |0.23                      |1.13               |
-|Guay 1991          |3.25          |16.00            |0.22                       |0.21                      |1.05               |
-|Guay 1991          |3.83          |14.20            |0.14                       |0.17                      |0.84               |
-|Guay 1991          |4.58          |15.00            |0.11                       |0.17                      |0.66               |
-|Guay 1991          |4.58          |19.00            |0.22                       |0.35                      |0.63               |
-|Guay 1991          |4.83          |17.50            |0.23                       |0.18                      |1.25               |
-|Guay 1991          |5.25          |18.50            |0.12                       |0.11                      |1.04               |
-|Guay 1991          |5.25          |19.65            |0.23                       |0.22                      |1.04               |
-|Guay 1991          |5.33          |24.00            |0.29                       |0.35                      |0.83               |
-|Guay 1991          |5.33          |24.00            |0.16                       |0.20                      |0.84               |
-|Guay 1991          |5.75          |14.50            |0.20                       |0.39                      |0.50               |
-|Guay 1991          |5.92          |28.20            |0.24                       |0.33                      |0.73               |
-|Guay 1991          |5.92          |25.00            |0.12                       |0.15                      |0.84               |
-|Guay 1991          |6.92          |29.60            |0.16                       |0.16                      |1.01               |
-|Guay 1991          |7.50          |23.50            |0.07                       |0.09                      |0.77               |
-|Guay 1991          |7.50          |15.20            |0.19                       |0.19                      |0.99               |
-|Guay 1991          |8.75          |22.60            |0.14                       |0.15                      |0.93               |
-|den Hollander 1992 |0.92          |6.50             |50.01                      |50.66                     |0.99               |
-|den Hollander 1992 |0.83          |6.40             |50.75                      |33.61                     |1.51               |
-|den Hollander 1992 |0.99          |8.50             |54.22                      |47.54                     |1.14               |
-|den Hollander 1992 |0.30          |5.10             |67.61                      |44.42                     |1.52               |
-|den Hollander 1992 |0.92          |6.15             |42.72                      |38.17                     |1.12               |
-|den Hollander 1992 |1.30          |10.40            |50.97                      |58.34                     |0.87               |
-|den Hollander 1992 |9.00          |25.60            |46.58                      |27.13                     |1.72               |
-|den Hollander 1992 |3.50          |14.40            |45.32                      |44.66                     |1.01               |
-|den Hollander 1992 |5.50          |19.50            |45.40                      |49.70                     |0.91               |
-|den Hollander 1992 |3.50          |18.50            |49.18                      |54.50                     |0.90               |
-|Meistelman 1987    |4.70          |20.00            |9.82                       |14.12                     |0.70               |
-|Meistelman 1987    |5.50          |20.00            |9.10                       |8.14                      |1.12               |
-|Meistelman 1987    |7.70          |23.00            |9.06                       |5.79                      |1.57               |
-|Meistelman 1987    |4.50          |14.00            |7.81                       |10.44                     |0.75               |
-|Meistelman 1987    |4.80          |24.00            |11.61                      |12.98                     |0.89               |
-|Meistelman 1987    |4.50          |20.00            |10.07                      |10.00                     |1.01               |
-|Meistelman 1987    |6.20          |23.00            |9.86                       |10.91                     |0.90               |
-|Meistelman 1987    |4.90          |22.00            |10.51                      |17.78                     |0.59               |
+|Study ID           |Age [year(s)] |Body Weight [kg] |Predicted AUC [µg*h/l] |Observed AUC [µg*h/l] |Pred/Obs AUC Ratio |
+|:------------------|:-------------|:----------------|:----------------------|:---------------------|:------------------|
+|Davis 1987         |1.29          |8.90             |7.47                   |13.81                 |0.54               |
+|Davis 1987         |0.43          |5.30             |9.35                   |9.09                  |1.03               |
+|Guay 1991          |2.08          |12.10            |1.09                   |1.81                  |0.60               |
+|Guay 1991          |2.58          |16.00            |0.66                   |0.77                  |0.86               |
+|Guay 1991          |2.67          |11.30            |1.68                   |1.49                  |1.13               |
+|Guay 1991          |3.25          |16.00            |1.45                   |1.38                  |1.05               |
+|Guay 1991          |3.83          |14.20            |0.93                   |1.10                  |0.84               |
+|Guay 1991          |4.58          |15.00            |0.74                   |1.12                  |0.66               |
+|Guay 1991          |4.58          |19.00            |1.42                   |2.25                  |0.63               |
+|Guay 1991          |4.83          |17.50            |1.46                   |1.16                  |1.25               |
+|Guay 1991          |5.25          |18.50            |0.75                   |0.73                  |1.04               |
+|Guay 1991          |5.25          |19.65            |1.47                   |1.42                  |1.04               |
+|Guay 1991          |5.33          |24.00            |1.89                   |2.26                  |0.83               |
+|Guay 1991          |5.33          |24.00            |1.06                   |1.26                  |0.84               |
+|Guay 1991          |5.75          |14.50            |1.26                   |2.53                  |0.50               |
+|Guay 1991          |5.92          |28.20            |1.55                   |2.13                  |0.73               |
+|Guay 1991          |5.92          |25.00            |0.80                   |0.95                  |0.84               |
+|Guay 1991          |6.92          |29.60            |1.04                   |1.03                  |1.01               |
+|Guay 1991          |7.50          |23.50            |0.45                   |0.58                  |0.77               |
+|Guay 1991          |7.50          |15.20            |1.22                   |1.23                  |0.99               |
+|Guay 1991          |8.75          |22.60            |0.87                   |0.94                  |0.93               |
+|den Hollander 1992 |0.92          |6.50             |347.14                 |351.67                |0.99               |
+|den Hollander 1992 |0.83          |6.40             |352.31                 |233.33                |1.51               |
+|den Hollander 1992 |0.99          |8.50             |376.38                 |330.00                |1.14               |
+|den Hollander 1992 |0.30          |5.10             |469.36                 |308.33                |1.52               |
+|den Hollander 1992 |0.92          |6.15             |296.56                 |265.00                |1.12               |
+|den Hollander 1992 |1.30          |10.40            |353.86                 |405.00                |0.87               |
+|den Hollander 1992 |9.00          |25.60            |323.36                 |188.33                |1.72               |
+|den Hollander 1992 |3.50          |14.40            |314.59                 |310.00                |1.01               |
+|den Hollander 1992 |5.50          |19.50            |315.14                 |345.00                |0.91               |
+|den Hollander 1992 |3.50          |18.50            |341.38                 |378.33                |0.90               |
+|Meistelman 1987    |4.70          |20.00            |68.19                  |98.04                 |0.70               |
+|Meistelman 1987    |5.50          |20.00            |63.19                  |56.50                 |1.12               |
+|Meistelman 1987    |7.70          |23.00            |62.90                  |40.16                 |1.57               |
+|Meistelman 1987    |4.50          |14.00            |54.21                  |72.46                 |0.75               |
+|Meistelman 1987    |4.80          |24.00            |80.61                  |90.09                 |0.89               |
+|Meistelman 1987    |4.50          |20.00            |69.91                  |69.44                 |1.01               |
+|Meistelman 1987    |6.20          |23.00            |68.46                  |75.76                 |0.90               |
+|Meistelman 1987    |4.90          |22.00            |72.99                  |123.46                |0.59               |
 
 
 
 
 
-# 2.1 Sufentanil PK Ratio tables and Figures
-# 2.1 Sufentanil PK Ratio tables and Figures
+## 2.1 Sufentanil PK Ratio tables and Figures
 
 
 ### Sufentanil model
@@ -207,11 +202,11 @@ Figure 2: Overall predictivity of the sufentanil PBPK model. Open circles repres
 Table 4: Measure of Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|                       | Number|Ratio |
-|:----------------------|------:|:-----|
-|Points Total           |     21|NA    |
-|Points within 1.5-fold |     16|0.76  |
-|Points within 2-fold   |     20|0.95  |
+|                       | Number|Ratio [%] |
+|:----------------------|------:|:---------|
+|Points total           |     21|-        |
+|Points within 1.5 fold |     16|76.19     |
+|Points within 2 fold   |     20|95.24     |
 
 
 Table 5: GMFE for Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -225,36 +220,35 @@ Table 5: GMFE for Overall predictivity of the sufentanil PBPK model. Open circle
 Table 6: Overall predictivity of the sufentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of sufentanil in children 5 months to 8.75 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Study ID   |Age [month(s)] |Body Weight [kg] |Predicted AUC [µmol*min/l] |Observed AUC [µmol*min/l] |Pred/Obs AUC Ratio |
-|:----------|:--------------|:----------------|:--------------------------|:-------------------------|:------------------|
-|Davis 1987 |1.29           |8.90             |1.16                       |2.14                      |0.54               |
-|Davis 1987 |0.43           |5.30             |1.45                       |1.41                      |1.03               |
-|Guay 1991  |2.08           |12.10            |0.17                       |0.28                      |0.60               |
-|Guay 1991  |2.58           |16.00            |0.10                       |0.12                      |0.86               |
-|Guay 1991  |2.67           |11.30            |0.26                       |0.23                      |1.13               |
-|Guay 1991  |3.25           |16.00            |0.22                       |0.21                      |1.05               |
-|Guay 1991  |3.83           |14.20            |0.14                       |0.17                      |0.84               |
-|Guay 1991  |4.58           |15.00            |0.11                       |0.17                      |0.66               |
-|Guay 1991  |4.58           |19.00            |0.22                       |0.35                      |0.63               |
-|Guay 1991  |4.83           |17.50            |0.23                       |0.18                      |1.25               |
-|Guay 1991  |5.25           |18.50            |0.12                       |0.11                      |1.04               |
-|Guay 1991  |5.25           |19.65            |0.23                       |0.22                      |1.04               |
-|Guay 1991  |5.33           |24.00            |0.29                       |0.35                      |0.83               |
-|Guay 1991  |5.33           |24.00            |0.16                       |0.20                      |0.84               |
-|Guay 1991  |5.75           |14.50            |0.20                       |0.39                      |0.50               |
-|Guay 1991  |5.92           |28.20            |0.24                       |0.33                      |0.73               |
-|Guay 1991  |5.92           |25.00            |0.12                       |0.15                      |0.84               |
-|Guay 1991  |6.92           |29.60            |0.16                       |0.16                      |1.01               |
-|Guay 1991  |7.50           |23.50            |0.07                       |0.09                      |0.77               |
-|Guay 1991  |7.50           |15.20            |0.19                       |0.19                      |0.99               |
-|Guay 1991  |8.75           |22.60            |0.14                       |0.15                      |0.93               |
+|Study ID   |Age [month(s)] |Body Weight [kg] |Predicted AUC [µg*h/l] |Observed AUC [µg*h/l] |Pred/Obs AUC Ratio |
+|:----------|:--------------|:----------------|:----------------------|:---------------------|:------------------|
+|Davis 1987 |1.29           |8.90             |7.47                   |13.81                 |0.54               |
+|Davis 1987 |0.43           |5.30             |9.35                   |9.09                  |1.03               |
+|Guay 1991  |2.08           |12.10            |1.09                   |1.81                  |0.60               |
+|Guay 1991  |2.58           |16.00            |0.66                   |0.77                  |0.86               |
+|Guay 1991  |2.67           |11.30            |1.68                   |1.49                  |1.13               |
+|Guay 1991  |3.25           |16.00            |1.45                   |1.38                  |1.05               |
+|Guay 1991  |3.83           |14.20            |0.93                   |1.10                  |0.84               |
+|Guay 1991  |4.58           |15.00            |0.74                   |1.12                  |0.66               |
+|Guay 1991  |4.58           |19.00            |1.42                   |2.25                  |0.63               |
+|Guay 1991  |4.83           |17.50            |1.46                   |1.16                  |1.25               |
+|Guay 1991  |5.25           |18.50            |0.75                   |0.73                  |1.04               |
+|Guay 1991  |5.25           |19.65            |1.47                   |1.42                  |1.04               |
+|Guay 1991  |5.33           |24.00            |1.89                   |2.26                  |0.83               |
+|Guay 1991  |5.33           |24.00            |1.06                   |1.26                  |0.84               |
+|Guay 1991  |5.75           |14.50            |1.26                   |2.53                  |0.50               |
+|Guay 1991  |5.92           |28.20            |1.55                   |2.13                  |0.73               |
+|Guay 1991  |5.92           |25.00            |0.80                   |0.95                  |0.84               |
+|Guay 1991  |6.92           |29.60            |1.04                   |1.03                  |1.01               |
+|Guay 1991  |7.50           |23.50            |0.45                   |0.58                  |0.77               |
+|Guay 1991  |7.50           |15.20            |1.22                   |1.23                  |0.99               |
+|Guay 1991  |8.75           |22.60            |0.87                   |0.94                  |0.93               |
 
 
 
 
 
-# 2.2 Sufentanil Concentration-Time profiles in Children
-# 2.2 Sufentanil Concentration-Time profiles in Children
+## 2.2 Sufentanil Concentration-Time profiles in Children
 
 
 #### Concentration-Time Profiles
@@ -265,44 +259,43 @@ Predicted versus observed plasma concentration-time profiles are listed below. O
 Figure 3: Time Profile Analysis
 
 
-![](002_section_3/004_section_32/3-Sufentanil-Pediatrics-Guay%201991%20patient%2011.png)
+![](002_section_3/004_section_32/5-Sufentanil-Pediatrics-Guay%201991%20patient%2011.png)
 
 
 Figure 4: Time Profile Analysis 1
 
 
-![](002_section_3/004_section_32/4-Sufentanil-Pediatrics-Guay%201991%20patient%2011.png)
+![](002_section_3/004_section_32/6-Sufentanil-Pediatrics-Guay%201991%20patient%2011.png)
 
 
 Figure 5: Time Profile Analysis
 
 
-![](002_section_3/004_section_32/5-Sufentanil-Pediatrics-Guay%201991%20patient%203.png)
+![](002_section_3/004_section_32/7-Sufentanil-Pediatrics-Guay%201991%20patient%203.png)
 
 
 Figure 6: Time Profile Analysis 1
 
 
-![](002_section_3/004_section_32/6-Sufentanil-Pediatrics-Guay%201991%20patient%203.png)
+![](002_section_3/004_section_32/8-Sufentanil-Pediatrics-Guay%201991%20patient%203.png)
 
 
 Figure 7: Time Profile Analysis
 
 
-![](002_section_3/004_section_32/7-Sufentanil-Pediatrics-Guay%201991%20patient%208.png)
+![](002_section_3/004_section_32/9-Sufentanil-Pediatrics-Guay%201991%20patient%208.png)
 
 
 Figure 8: Time Profile Analysis 1
 
 
-![](002_section_3/004_section_32/8-Sufentanil-Pediatrics-Guay%201991%20patient%208.png)
+![](002_section_3/004_section_32/10-Sufentanil-Pediatrics-Guay%201991%20patient%208.png)
 
 
 
 
 
-# 2.3 Alfentanil PK Ratio tables and Figures
-# 2.3 Alfentanil PK Ratio tables and Figures
+## 2.3 Alfentanil PK Ratio tables and Figures
 
 
 ### Alfentanil model
@@ -325,11 +318,11 @@ Figure 9: Overall predictivity of the alfentanil PBPK model. Open circles repres
 Table 7: Measure of Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|                       | Number|Ratio |
-|:----------------------|------:|:-----|
-|Points Total           |     18|NA    |
-|Points within 1.5-fold |     13|0.72  |
-|Points within 2-fold   |     18|1.00  |
+|                       | Number|Ratio [%] |
+|:----------------------|------:|:---------|
+|Points total           |     18|-        |
+|Points within 1.5 fold |     13|72.22     |
+|Points within 2 fold   |     18|100.00    |
 
 
 Table 8: GMFE for Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
@@ -343,33 +336,32 @@ Table 8: GMFE for Overall predictivity of the alfentanil PBPK model. Open circle
 Table 9: Overall predictivity of the alfentanil PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of alfentanil in children 3.6 months to 9 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.
 
 
-|Study ID           |Age [year(s)] |Body Weight [kg] |Predicted AUC [µmol*min/l] |Observed AUC [µmol*min/l] |Pred/Obs AUC Ratio |
-|:------------------|:-------------|:----------------|:--------------------------|:-------------------------|:------------------|
-|den Hollander 1992 |0.92          |6.50             |50.01                      |50.66                     |0.99               |
-|den Hollander 1992 |0.83          |6.40             |50.75                      |33.61                     |1.51               |
-|den Hollander 1992 |0.99          |8.50             |54.22                      |47.54                     |1.14               |
-|den Hollander 1992 |0.30          |5.10             |67.61                      |44.42                     |1.52               |
-|den Hollander 1992 |0.92          |6.15             |42.72                      |38.17                     |1.12               |
-|den Hollander 1992 |1.30          |10.40            |50.97                      |58.34                     |0.87               |
-|den Hollander 1992 |9.00          |25.60            |46.58                      |27.13                     |1.72               |
-|den Hollander 1992 |3.50          |14.40            |45.32                      |44.66                     |1.01               |
-|den Hollander 1992 |5.50          |19.50            |45.40                      |49.70                     |0.91               |
-|den Hollander 1992 |3.50          |18.50            |49.18                      |54.50                     |0.90               |
-|Meistelman 1987    |4.70          |20.00            |9.82                       |14.12                     |0.70               |
-|Meistelman 1987    |5.50          |20.00            |9.10                       |8.14                      |1.12               |
-|Meistelman 1987    |7.70          |23.00            |9.06                       |5.79                      |1.57               |
-|Meistelman 1987    |4.50          |14.00            |7.81                       |10.44                     |0.75               |
-|Meistelman 1987    |4.80          |24.00            |11.61                      |12.98                     |0.89               |
-|Meistelman 1987    |4.50          |20.00            |10.07                      |10.00                     |1.01               |
-|Meistelman 1987    |6.20          |23.00            |9.86                       |10.91                     |0.90               |
-|Meistelman 1987    |4.90          |22.00            |10.51                      |17.78                     |0.59               |
+|Study ID           |Age [year(s)] |Body Weight [kg] |Predicted AUC [µg*h/l] |Observed AUC [µg*h/l] |Pred/Obs AUC Ratio |
+|:------------------|:-------------|:----------------|:----------------------|:---------------------|:------------------|
+|den Hollander 1992 |0.92          |6.50             |347.14                 |351.67                |0.99               |
+|den Hollander 1992 |0.83          |6.40             |352.31                 |233.33                |1.51               |
+|den Hollander 1992 |0.99          |8.50             |376.38                 |330.00                |1.14               |
+|den Hollander 1992 |0.30          |5.10             |469.36                 |308.33                |1.52               |
+|den Hollander 1992 |0.92          |6.15             |296.56                 |265.00                |1.12               |
+|den Hollander 1992 |1.30          |10.40            |353.86                 |405.00                |0.87               |
+|den Hollander 1992 |9.00          |25.60            |323.36                 |188.33                |1.72               |
+|den Hollander 1992 |3.50          |14.40            |314.59                 |310.00                |1.01               |
+|den Hollander 1992 |5.50          |19.50            |315.14                 |345.00                |0.91               |
+|den Hollander 1992 |3.50          |18.50            |341.38                 |378.33                |0.90               |
+|Meistelman 1987    |4.70          |20.00            |68.19                  |98.04                 |0.70               |
+|Meistelman 1987    |5.50          |20.00            |63.19                  |56.50                 |1.12               |
+|Meistelman 1987    |7.70          |23.00            |62.90                  |40.16                 |1.57               |
+|Meistelman 1987    |4.50          |14.00            |54.21                  |72.46                 |0.75               |
+|Meistelman 1987    |4.80          |24.00            |80.61                  |90.09                 |0.89               |
+|Meistelman 1987    |4.50          |20.00            |69.91                  |69.44                 |1.01               |
+|Meistelman 1987    |6.20          |23.00            |68.46                  |75.76                 |0.90               |
+|Meistelman 1987    |4.90          |22.00            |72.99                  |123.46                |0.59               |
 
 
 
 
 
-# 2.4 Alfentanil Concentration-Time profiles in Children
-# 2.4 Alfentanil Concentration-Time profiles in Children
+## 2.4 Alfentanil Concentration-Time profiles in Children
 
 
 #### Concentration-Time Profiles
@@ -387,6 +379,18 @@ Figure 11: Time Profile Analysis 1
 
 
 ![](002_section_3/006_section_34/2-Alfentanil-Pediatrics-den%20Holländer%201992%20ind%203.png)
+
+
+Figure 12: Time Profile Analysis
+
+
+![](002_section_3/006_section_34/3-Alfentanil-Pediatrics-Meistelman%201987%20children.png)
+
+
+Figure 13: Time Profile Analysis 1
+
+
+![](002_section_3/006_section_34/4-Alfentanil-Pediatrics-Meistelman%201987%20children.png)
 
 
 
